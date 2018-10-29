@@ -36,7 +36,7 @@ cacheSolve <- function(x, ...) {
   #If no cached inverse, get the matrix
   data<-x$get()
   #Calculate the inverse of the matrix
-  iv<-solve(data)%*%data
+  iv<-solve(data,...)
   #Set the inverse of the matrix
   x$setinverse(iv)
   #return the inverse value
