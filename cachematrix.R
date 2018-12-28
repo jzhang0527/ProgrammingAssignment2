@@ -3,7 +3,7 @@
 ## Cache the value of the inverse of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-  #Initiate matrix
+  #Initiate inverse
   iv<-null
   #Set the value of the matrix
   set<-function(y){
